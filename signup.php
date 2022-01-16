@@ -13,7 +13,7 @@ session_destroy();//Destruit la session en cours
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<style>
-		table{
+		/* table{
 			border-spacing: 50px;
 			margin: auto;
 		}
@@ -23,15 +23,15 @@ session_destroy();//Destruit la session en cours
 			top:0px;
 			font-style: italic;
 			font-size:35px;
-		}
-		#forms {
+		} */
+		/* #forms {
 			margin-left:45%;
 			margin-top:10%;
 			/*border:1px solid black;
 			height:400px;
 			width:300px;*/
 
-		}
+		} */
 	</style>
 </head>
 <body >
@@ -46,35 +46,40 @@ session_destroy();//Destruit la session en cours
 </div>
 </div>
 
+<div class="container">
+<h5 class="text-center my-5">Page d'inscription</h5>
+	<div class="justify-content-center my-5 row">
+			<form method="post" action="">
 
-	<form method="post" action="">
-	<div class="container" id="forms">
-		<div class="form-group row">
-			<input type="text" name="name" placeholder="Entrez votre nom" required="required" class="form-control col-12 col-lg-4"/>
-		</div>
-		<div class="form-group row">
-			<input type="text" name="surname" placeholder="Entrez votre prénom" required="required" class="form-control col-12 col-lg-4"/>
-		</div>
-	
-		<div class="form-group row" id="boxmailenter">
-			<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control col-12 col-lg-4" id="mailenter"  />
+					<div class="form-group col-lg-12">
+						<input type="text" name="name" placeholder="Entrez votre nom" required="required" class="form-control"/>
+					</div>
+					<div class="form-group col-lg-12">
+						<input type="text" name="surname" placeholder="Entrez votre prénom" required="required" class="form-control "/>
+					</div>
 
-		</div>
-		<div class="form-group row" >
-			<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control col-12 col-lg-4" id="paswd" />
-		</div>
-		<div class="form-group row" id="passenter">
-			
-			<input type="password" name="cpassword" placeholder="Confirmez le mot de passe" required="required" class="form-control col-12 col-lg-4" id="cpaswd" />
-			
-		</div>
-		<div class="form-group">
-			
-			<input type="submit" class="btn btn-primary" value="S'inscrire" name="submit" />
-		</div>
+					<div class="form-group col-lg-12" id="boxmailenter">
+						<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control " id="mailenter"  />
+
+					</div>
+					<div class="form-group col-lg-12" >
+						<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control " id="paswd" />
+					</div>
+					<div class="form-group  col-lg-12" id="passenter">
+						
+						<input type="password" name="cpassword" placeholder="Confirmez le mot de passe" required="required" class="form-control " id="cpaswd" />
+						
+					</div>
+					<div class="form-group">
+						
+						<input type="submit" class="btn btn-primary" value="S'inscrire" name="submit" />
+					</div>
+
+			</form>
 	</div>
-		</form>
-	<div class="alert-info">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></div>
+	
+</div>
+	<h5 class="alert-info text-center">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></h5>
 			
 		
 		<?php

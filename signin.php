@@ -24,25 +24,29 @@ session_start(); ?>
 </div>
 </div>
 <br/><br/><br/><br/><br/><br/>
-
+<div class="container">
+	<div class="justify-content-center row">
 	<form method="post" action="" class="form-signin">
-		<div class="container">
-	
-			<div class="form-group row" >
-				
-					<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control col-12 col-lg-4" id="mailenter" />
-			</div>
-			<div class="form-group row" id="boxpass">
-					<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control col-12 col-lg-4" id="passenter" />
-			</div>
-				<div class="form-group row">
-					<input type="submit" name="submit" value="Se connecter" class="btn btn-primary" class="col-4"/>
-				</div>
-			</div>
-				
-
 		
-	</form>
+	
+		<div class="form-group col-lg-12" >
+			
+				<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control " id="mailenter" />
+		</div>
+		<div class="form-group col-lg-12" id="boxpass">
+				<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control " id="passenter" />
+		</div>
+			<div class="form-group col-lg-12">
+				<input type="submit" name="submit" value="Se connecter" class="btn btn-primary" class="form-control"/>
+			</div>
+	
+			
+
+	
+</form>
+	</div>
+	
+	</div>
 	<div class="alert-info">Vous n'avez pas un compte? <a href="signup.php" class="alert-link">Veuillez vous inscrire</a></div>
 		<?php 
 			if (isset($_POST['submit'])){
