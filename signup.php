@@ -74,7 +74,7 @@ session_destroy();//Destruit la session en cours
 		</div>
 	</div>
 		</form>
-	<div class="alert-info">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></div>
+	<h5 class="alert-info text-center">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></h5>
 			
 		
 		<?php
