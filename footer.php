@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 	@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
 body {
@@ -136,4 +136,4 @@ hr {
 					</div>
 				</div>
 			</div>
-</div>
+</div> -->

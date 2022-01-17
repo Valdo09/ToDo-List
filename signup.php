@@ -77,8 +77,12 @@ session_destroy();//Destruit la session en cours
 
 			</form>
 	</div>
+<<<<<<< HEAD
 	
 </div>
+=======
+		</form>
+>>>>>>> de4a22c48b6d86fa2762288a839c1a634d172eba
 	<h5 class="alert-info text-center">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></h5>
 			
 		
@@ -132,9 +136,7 @@ session_destroy();//Destruit la session en cours
 }
 	?>
 	<div class="fixed-bottom">
-	<?php 
-		include("footer.php");
-	?>
+	
 	</div>
 
 
