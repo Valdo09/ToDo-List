@@ -48,42 +48,9 @@ session_destroy();//Destruit la session en cours
 
 <div class="container">
 <h5 class="text-center my-5">Page d'inscription</h5>
-	<div class="justify-content-center my-5 row">
-			<form method="post" action="">
-
-					<div class="form-group col-lg-12">
-						<input type="text" name="name" placeholder="Entrez votre nom" required="required" class="form-control"/>
-					</div>
-					<div class="form-group col-lg-12">
-						<input type="text" name="surname" placeholder="Entrez votre prénom" required="required" class="form-control "/>
-					</div>
-
-					<div class="form-group col-lg-12" id="boxmailenter">
-						<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control " id="mailenter"  />
-
-					</div>
-					<div class="form-group col-lg-12" >
-						<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control " id="paswd" />
-					</div>
-					<div class="form-group  col-lg-12" id="passenter">
-						
-						<input type="password" name="cpassword" placeholder="Confirmez le mot de passe" required="required" class="form-control " id="cpaswd" />
-						
-					</div>
-					<div class="form-group">
-						
-						<input type="submit" class="btn btn-primary" value="S'inscrire" name="submit" />
-					</div>
-
-			</form>
-	</div>
-<<<<<<< HEAD
 	
-</div>
-=======
-		</form>
->>>>>>> de4a22c48b6d86fa2762288a839c1a634d172eba
-	<h5 class="alert-info text-center">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></h5>
+
+	
 			
 		
 		<?php
@@ -135,9 +102,42 @@ session_destroy();//Destruit la session en cours
 
 }
 	?>
-	<div class="fixed-bottom">
-	
+	<div class="justify-content-center my-5 row">
+			<form method="post" action="">
+
+					<div class="form-group col-lg-12">
+						<input type="text" name="name" placeholder="Entrez votre nom" required="required" class="form-control"/>
+					</div>
+					<div class="form-group col-lg-12">
+						<input type="text" name="surname" placeholder="Entrez votre prénom" required="required" class="form-control "/>
+					</div>
+
+					<div class="form-group col-lg-12" id="boxmailenter">
+						<input type="email" name="email" placeholder="Entrez votre mail" required="required" class="form-control " id="mailenter"  />
+
+					</div>
+					<div class="form-group col-lg-12" >
+						<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control " id="paswd" />
+					</div>
+					<div class="form-group  col-lg-12" id="passenter">
+						
+						<input type="password" name="cpassword" placeholder="Confirmez le mot de passe" required="required" class="form-control " id="cpaswd" />
+						
+					</div>
+					<div class="form-group">
+						
+						<input type="submit" class="btn btn-primary" value="S'inscrire" name="submit" />
+					</div>
+
+			</form>
 	</div>
+
+	
+</div>
+
+		</form>
+		<h5 class="alert-info text-center">Vous avez un compte? <a href="signin.php" class="alert-link">Connectez-vous</a></h5>
+</div>
 
 
 
