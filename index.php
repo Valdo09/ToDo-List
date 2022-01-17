@@ -33,6 +33,9 @@ session_destroy();//Destruit la session en cours
 								<li class="nav-item">
 									<a class="nav-link" href="signin.php">Se connecter</a>
 								</li>
+								<li class="nav-item">
+									
+								</li>
 							</ul>
 						</div>
 					</nav>

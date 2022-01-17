@@ -36,7 +36,7 @@ session_start(); ?>
 		<div class="form-group col-lg-12" id="boxpass">
 				<input type="password" name="password" placeholder="Entrez le mot de passe" required="required" class="form-control " id="passenter" />
 		</div>
-			<div class="form-group col-lg-12">
+			<div class="form-group col-lg-12git">
 				<input type="submit" name="submit" value="Se connecter" class="btn btn-primary" class="form-control"/>
 			</div>
 	

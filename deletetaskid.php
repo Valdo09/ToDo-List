@@ -1,12 +1,14 @@
 <?php 
-
-		if(isset($_POST['idtaskdelete']))
-     		{
-     				include("dbconnect.php");
-					$suppression=$bdd->prepare("DELETE  FROM tasks WHERE idtask=?");
-					$suppression->execute(array($_POST['idtaskdelete']));
-					
-					$success="The task has been deleted !";
-					header("location:menu.php?message=$success");
-     		}
-?>
+	
+	include('dbconnect.php');
+		$id=$_POST['del-champ'];
+		$req=$bdd->prepare("DELETE from tasks WHERE idtask=?");
+		$req->execute(array($id));
+		header("location:menu.php? message=Deleted");
+	
+	
+	
+	
+	?>
+	
+	
